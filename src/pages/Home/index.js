@@ -29,7 +29,7 @@ function Home() {
   if (loading) {
     return (
       <div className="loading">
-        <h2>Carregado Filmes...</h2>
+        <h2>Carregando Filmes...</h2>
       </div>
     );
   }
