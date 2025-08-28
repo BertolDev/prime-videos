@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# Prime Flix 🎬
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Aplicação web para listar, favoritar e visualizar detalhes de filmes, desenvolvida com ReactJS e integração com a API do TMDB.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Funcionalidades
 
-### `npm start`
+- Listagem dos filmes em cartaz
+- Visualização de detalhes de cada filme
+- Favoritar filmes e gerenciar sua lista
+- Remover filmes dos favoritos
+- Notificações modernas com React Toastify
+- Navegação entre páginas com React Router
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm test`
+- **ReactJS**
+- **React Router DOM**
+- **Axios**
+- **React Toastify**
+- **TMDB API**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📁 Estrutura de Pastas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+src/
+  App.js
+  index.js
+  routes.js
+  components/
+    Header/
+      header.css
+      index.js
+  pages/
+    Erro/
+      erro.css
+      index.js
+    Favoritos/
+      favoritos.css
+      index.js
+    Filme/
+      filme-info.css
+      index.js
+    Home/
+      home.css
+      index.js
+  services/
+    api.js
+public/
+  index.html
+  favicon.ico
+  ...
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💻 Como rodar o projeto
 
-### `npm run eject`
+1. **Clone o repositório:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/BertolDev/prime-videos.git
+   cd prime-videos
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Instale as dependências:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Inicie o servidor de desenvolvimento:**
 
-## Learn More
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Acesse:** [http://localhost:3000](http://localhost:3000)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📸 Demonstração
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+> Adicione aqui prints da aplicação ou um GIF mostrando o funcionamento!
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📝 Observações
 
-### Making a Progressive Web App
+- Os filmes favoritos são salvos no `localStorage` do navegador.
+- As notificações aparecem no canto da tela ao salvar ou remover filmes.
+- O projeto foi criado com Create React App.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 👨‍💻 Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Feito por Murilo Gabriel Bertoldo(https://github.com/BertolDev)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
